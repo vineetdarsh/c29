@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <h2>convert  a java script</h2>
+        <p id="result"></p>
+        <script>
+            var myObj={name:"riya",age:"12",grade:"7"}
+            var myJASON =JSON.stringify(myObj);
+            var newObj=JSON.parse(myJASON);
+            document.getElementById("result").innerHTML =newObj.name;
+        </script>
+    </body>
+</html>
